@@ -294,3 +294,39 @@ input, select {
 .cart-description {
     margin: 20px 0;
 }
+
+/* newsletter style */
+.newsletter-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+    margin-bottom: 90px;
+}
+.newsletter-content {
+    grid-column: 1/span 5;
+}
+.newsletter-header {
+    font-size: var(--header-size);
+    margin-top: 25px;
+}
+.newsletter-description {
+    font-size: var(--text-size);
+    margin: 15px 0;
+}
+.newsletter-input {
+    border: 1px solid gray;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#newsletter-btn {
+    width: 100%;
+    margin-left: 0;
+}
+.newsletter-image {
+    width: 100%;
+    grid-column: 6/span 7;
+}
+.newsletter-image img {
+    width: 100%;
+}
