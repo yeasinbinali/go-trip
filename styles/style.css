@@ -326,7 +326,56 @@ input, select {
 .newsletter-image {
     width: 100%;
     grid-column: 6/span 7;
+    position: relative;
 }
 .newsletter-image img {
     width: 100%;
+}
+.newsletter-save {
+    background-color: var(--primary-color);
+    color: white;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    transform: rotate(-20deg);
+}
+.newsletter-save > p {
+    font-size: var(--text-size);
+}
+.newsletter-save > h2 {
+    font-weight: normal;
+}
+
+/* footer style */
+.footer-container {
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer-main {
+    padding: 110px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-description {
+    width: 60%;
+    margin: 20px auto;
+    font-size: var(--text-size);
+}
+.social-media-container img{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+hr {
+    width: 60%;
+    margin: 30px auto;
+}
+.footer-last {
+    font-size: var(--text-size);
 }
