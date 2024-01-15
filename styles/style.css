@@ -126,3 +126,74 @@ input, select {
 .popular-tour-list {
     font-size: var(--text-size);
 }
+
+/* destination style */
+.destination-container {
+    text-align: center;
+}
+
+.destination-header {
+    font-size: var(--header-size);
+}
+
+.destination-description {
+    font-size: var(--text-size);
+    width: 70%;
+    margin: 20px auto 36px auto;
+}
+
+.destination-image-container img {
+    width: 100%;
+    height: 300px;
+    filter: brightness(90%);
+}
+
+.destination-image-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.destination-one {
+    grid-column: 1/span 6;
+    position: relative;
+}
+
+.destination-second {
+    grid-column: 7/span 6;
+    position: relative;
+}
+
+.destination-third {
+    grid-column: 1/span 4;
+    position: relative;
+}
+
+.destination-forth {
+    grid-column: 5/span 4;
+    position: relative;
+}
+
+.destination-fifth {
+    grid-column: 9/span 4;
+    position: relative;
+}
+
+.destination-sixth {
+    grid-column: 1/span 6;
+    position: relative;
+}
+
+.destination-seventh {
+    grid-column: 7/span 6;
+    position: relative;
+}
+
+.destination-name {
+    font-size: var(--header-size);
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: white;
+}
