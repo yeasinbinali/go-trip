@@ -1,22 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- title -->
-    <title>GoTrip - Tour site</title>   
+    <title>GoTrip - Tour site</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <!-- css link -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7522ad2aa7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-
+        <!-- nav container -->
+        <section class="nav-container">
+            <div class="logo-container">
+                <img src="./Images/logo.png" alt="logo">
+                <h2 class="trip-name">Go<span class="trip-span">Trip</span></h2>
+            </div>
+            <nav class="navbar-item">
+                <a href="">Home</a>
+                <a href="">Packages</a>
+                <a href="">Testimonials</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </nav>
+        </section>
+        <!-- header image container -->
+        <section class="header-container">
+            <img class="header-image" src="./Images/headerImage.png" alt="header-image">
+            <div class="header-content">
+                <h2 class="header-name">Explore Your Travel</h2>
+                <p class="header-description">Virtual and vast, I explore diverse destinations, cultures, and concepts, transcending boundaries through language. Let's embark on a wordy journey!</p>
+                <div class="input-container">
+                    <div>
+                        <input type="text" name="text" placeholder="Where">
+                    </div>
+                    <div>
+                        <select>
+                            <option value="When">When</option>
+                            <option value="Summer">Summer</option>
+                            <option value="Winter">Winter</option>
+                            <option value="Spring">Spring</option>
+                            <option value="Rainy">Rainy</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select>
+                            <option value="Type">Type</option>
+                            <option value="Mountain">Mountain</option>
+                            <option value="Sea-beach">Sea-beach</option>
+                            <option value="Garden">Garden</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="button"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>

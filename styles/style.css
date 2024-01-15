@@ -1,0 +1,103 @@
+/* centered style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+
+header, main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #FF5400;
+    --header-size: 2.5em;
+    --text-size: 1.2em;
+    --bg-color: rgba(255, 255, 255, 0.30);
+}
+
+/* header style */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 30px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.trip-name {
+    margin-left: 5px;
+    font-size: var(--header-size);
+}
+
+.trip-span {
+    color: var(--primary-color);
+}
+
+.navbar-item a {
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: var(--text-size);
+    color: black;
+}
+
+/* header style */
+.header-container {
+    position: relative;
+    text-align: center;
+}
+.header-image {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.header-content {
+    position: absolute;
+    top: 20%;
+}
+
+.header-name {
+    font-size: var(--header-size);
+    color: white;
+}
+
+.header-description {
+    font-size: var(--text-size);
+    width: 70%;
+    color: white;
+    margin: 24px auto 36px auto;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input, select {
+    padding: 10px;
+    font-size: var(--text-size);
+    margin-left: 8px;
+    border: 1px solid white;
+}
+
+.button {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: white;
+    padding: 11px 20px;
+    font-size: var(--text-size);
+    margin-left: 8px;
+}
+
+
