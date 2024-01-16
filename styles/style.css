@@ -417,10 +417,10 @@ select {
     font-size: var(--text-size);
 }
 
-.social-media-container img {
+.social-media-container i {
     width: 24px;
     height: 24px;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 hr {
