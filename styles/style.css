@@ -113,6 +113,7 @@ select {
     font-size: var(--text-size);
     margin-left: 8px;
     border: 1px solid white;
+    background-color: ghostwhite;
 }
 
 /* our popular tour style */
@@ -355,6 +356,7 @@ select {
 }
 
 .newsletter-input {
+    background-color: ghostwhite;
     border: 1px solid gray;
     margin-left: 0;
     width: 100%;
@@ -519,6 +521,7 @@ hr {
 
     .popular-tour-header {
         font-size: var(--responsive-header-size);
+        margin-top: 0;
     }
 
     .popular-tour-description {
@@ -695,6 +698,7 @@ hr {
 
     .newsletter-save>h2 {
         font-weight: normal;
+        font-size: var(--responsive-text-size);
     }
 
     /* footer style */
