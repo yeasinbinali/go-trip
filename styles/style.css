@@ -170,10 +170,7 @@ select {
     width: 100%;
     height: 300px;
     filter: brightness(90%);
-}
-
-.destination-image-container img:hover {
-    transform: scale(1);
+    object-fit: cover;
 }
 
 .destination-image-container {
